@@ -12,7 +12,7 @@ const margin = {
   
   // append the svg object to the body of the page
   const svg = d3
-    .select('#my_dataviz')
+    .select('#blackhat')
     .append('svg')
     .attr('width', width + margin.left + margin.right - 50)
     .attr('height', height + margin.top + margin.bottom - 50)
@@ -29,7 +29,7 @@ const margin = {
     .attr('y', -margin.top / 2)
     .attr('text-anchor', 'middle')
     .style('font-size', '20px')
-    .text('Average Math GPA of States over the Years');
+    .text('Average Math GPA of States over the Years (Black Hat)');
   
   // Parse the Data
   d3.csv(
